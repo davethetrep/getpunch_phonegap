@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D3264EB1CD42C7700B222C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3264EA1CD42C7700B222C8 /* AppDelegate.swift */; };
+		3D3264ED1CD42C7700B222C8 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3264EC1CD42C7700B222C8 /* FirstViewController.swift */; };
+		3D3264EF1CD42C7700B222C8 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3264EE1CD42C7700B222C8 /* SecondViewController.swift */; };
+		3D3264F21CD42C7700B222C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D3264F01CD42C7700B222C8 /* Main.storyboard */; };
+		3D3264F41CD42C7700B222C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D3264F31CD42C7700B222C8 /* Assets.xcassets */; };
+		3D3264F71CD42C7700B222C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D3264F51CD42C7700B222C8 /* LaunchScreen.storyboard */; };
+		3D3265021CD42C7700B222C8 /* getpunch_phonegapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3265011CD42C7700B222C8 /* getpunch_phonegapTests.swift */; };
+		3D32650D1CD42C7700B222C8 /* getpunch_phonegapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D32650C1CD42C7700B222C8 /* getpunch_phonegapUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3D3264FE1CD42C7700B222C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D3264DF1CD42C7700B222C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D3264E61CD42C7700B222C8;
+			remoteInfo = getpunch_phonegap;
+		};
+		3D3265091CD42C7700B222C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D3264DF1CD42C7700B222C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D3264E61CD42C7700B222C8;
+			remoteInfo = getpunch_phonegap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3D3264E71CD42C7700B222C8 /* getpunch_phonegap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = getpunch_phonegap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D3264EA1CD42C7700B222C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3D3264EC1CD42C7700B222C8 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		3D3264EE1CD42C7700B222C8 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		3D3264F11CD42C7700B222C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D3264F31CD42C7700B222C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D3264F61CD42C7700B222C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3D3264F81CD42C7700B222C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D3264FD1CD42C7700B222C8 /* getpunch_phonegapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = getpunch_phonegapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D3265011CD42C7700B222C8 /* getpunch_phonegapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getpunch_phonegapTests.swift; sourceTree = "<group>"; };
+		3D3265031CD42C7700B222C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D3265081CD42C7700B222C8 /* getpunch_phonegapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = getpunch_phonegapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D32650C1CD42C7700B222C8 /* getpunch_phonegapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getpunch_phonegapUITests.swift; sourceTree = "<group>"; };
+		3D32650E1CD42C7700B222C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D3264E41CD42C7700B222C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D3264FA1CD42C7700B222C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D3265051CD42C7700B222C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D3264DE1CD42C7700B222C8 = {
+			isa = PBXGroup;
+			children = (
+				3D3264E91CD42C7700B222C8 /* getpunch_phonegap */,
+				3D3265001CD42C7700B222C8 /* getpunch_phonegapTests */,
+				3D32650B1CD42C7700B222C8 /* getpunch_phonegapUITests */,
+				3D3264E81CD42C7700B222C8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D3264E81CD42C7700B222C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D3264E71CD42C7700B222C8 /* getpunch_phonegap.app */,
+				3D3264FD1CD42C7700B222C8 /* getpunch_phonegapTests.xctest */,
+				3D3265081CD42C7700B222C8 /* getpunch_phonegapUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D3264E91CD42C7700B222C8 /* getpunch_phonegap */ = {
+			isa = PBXGroup;
+			children = (
+				3D3264EA1CD42C7700B222C8 /* AppDelegate.swift */,
+				3D3264EC1CD42C7700B222C8 /* FirstViewController.swift */,
+				3D3264EE1CD42C7700B222C8 /* SecondViewController.swift */,
+				3D3264F01CD42C7700B222C8 /* Main.storyboard */,
+				3D3264F31CD42C7700B222C8 /* Assets.xcassets */,
+				3D3264F51CD42C7700B222C8 /* LaunchScreen.storyboard */,
+				3D3264F81CD42C7700B222C8 /* Info.plist */,
+			);
+			path = getpunch_phonegap;
+			sourceTree = "<group>";
+		};
+		3D3265001CD42C7700B222C8 /* getpunch_phonegapTests */ = {
+			isa = PBXGroup;
+			children = (
+				3D3265011CD42C7700B222C8 /* getpunch_phonegapTests.swift */,
+				3D3265031CD42C7700B222C8 /* Info.plist */,
+			);
+			path = getpunch_phonegapTests;
+			sourceTree = "<group>";
+		};
+		3D32650B1CD42C7700B222C8 /* getpunch_phonegapUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3D32650C1CD42C7700B222C8 /* getpunch_phonegapUITests.swift */,
+				3D32650E1CD42C7700B222C8 /* Info.plist */,
+			);
+			path = getpunch_phonegapUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D3264E61CD42C7700B222C8 /* getpunch_phonegap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D3265111CD42C7700B222C8 /* Build configuration list for PBXNativeTarget "getpunch_phonegap" */;
+			buildPhases = (
+				3D3264E31CD42C7700B222C8 /* Sources */,
+				3D3264E41CD42C7700B222C8 /* Frameworks */,
+				3D3264E51CD42C7700B222C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = getpunch_phonegap;
+			productName = getpunch_phonegap;
+			productReference = 3D3264E71CD42C7700B222C8 /* getpunch_phonegap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3D3264FC1CD42C7700B222C8 /* getpunch_phonegapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D3265141CD42C7700B222C8 /* Build configuration list for PBXNativeTarget "getpunch_phonegapTests" */;
+			buildPhases = (
+				3D3264F91CD42C7700B222C8 /* Sources */,
+				3D3264FA1CD42C7700B222C8 /* Frameworks */,
+				3D3264FB1CD42C7700B222C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D3264FF1CD42C7700B222C8 /* PBXTargetDependency */,
+			);
+			name = getpunch_phonegapTests;
+			productName = getpunch_phonegapTests;
+			productReference = 3D3264FD1CD42C7700B222C8 /* getpunch_phonegapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3D3265071CD42C7700B222C8 /* getpunch_phonegapUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D3265171CD42C7700B222C8 /* Build configuration list for PBXNativeTarget "getpunch_phonegapUITests" */;
+			buildPhases = (
+				3D3265041CD42C7700B222C8 /* Sources */,
+				3D3265051CD42C7700B222C8 /* Frameworks */,
+				3D3265061CD42C7700B222C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D32650A1CD42C7700B222C8 /* PBXTargetDependency */,
+			);
+			name = getpunch_phonegapUITests;
+			productName = getpunch_phonegapUITests;
+			productReference = 3D3265081CD42C7700B222C8 /* getpunch_phonegapUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D3264DF1CD42C7700B222C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "David Clark";
+				TargetAttributes = {
+					3D3264E61CD42C7700B222C8 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					3D3264FC1CD42C7700B222C8 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 3D3264E61CD42C7700B222C8;
+					};
+					3D3265071CD42C7700B222C8 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 3D3264E61CD42C7700B222C8;
+					};
+				};
+			};
+			buildConfigurationList = 3D3264E21CD42C7700B222C8 /* Build configuration list for PBXProject "getpunch_phonegap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D3264DE1CD42C7700B222C8;
+			productRefGroup = 3D3264E81CD42C7700B222C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D3264E61CD42C7700B222C8 /* getpunch_phonegap */,
+				3D3264FC1CD42C7700B222C8 /* getpunch_phonegapTests */,
+				3D3265071CD42C7700B222C8 /* getpunch_phonegapUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D3264E51CD42C7700B222C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D3264F71CD42C7700B222C8 /* LaunchScreen.storyboard in Resources */,
+				3D3264F41CD42C7700B222C8 /* Assets.xcassets in Resources */,
+				3D3264F21CD42C7700B222C8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D3264FB1CD42C7700B222C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D3265061CD42C7700B222C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D3264E31CD42C7700B222C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D3264EF1CD42C7700B222C8 /* SecondViewController.swift in Sources */,
+				3D3264EB1CD42C7700B222C8 /* AppDelegate.swift in Sources */,
+				3D3264ED1CD42C7700B222C8 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D3264F91CD42C7700B222C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D3265021CD42C7700B222C8 /* getpunch_phonegapTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D3265041CD42C7700B222C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D32650D1CD42C7700B222C8 /* getpunch_phonegapUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D3264FF1CD42C7700B222C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D3264E61CD42C7700B222C8 /* getpunch_phonegap */;
+			targetProxy = 3D3264FE1CD42C7700B222C8 /* PBXContainerItemProxy */;
+		};
+		3D32650A1CD42C7700B222C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D3264E61CD42C7700B222C8 /* getpunch_phonegap */;
+			targetProxy = 3D3265091CD42C7700B222C8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3D3264F01CD42C7700B222C8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D3264F11CD42C7700B222C8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3D3264F51CD42C7700B222C8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D3264F61CD42C7700B222C8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D32650F1CD42C7700B222C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3D3265101CD42C7700B222C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D3265121CD42C7700B222C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = getpunch_phonegap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "getpunch.getpunch-phonegap";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3D3265131CD42C7700B222C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = getpunch_phonegap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "getpunch.getpunch-phonegap";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3D3265151CD42C7700B222C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = getpunch_phonegapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "getpunch.getpunch-phonegapTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/getpunch_phonegap.app/getpunch_phonegap";
+			};
+			name = Debug;
+		};
+		3D3265161CD42C7700B222C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = getpunch_phonegapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "getpunch.getpunch-phonegapTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/getpunch_phonegap.app/getpunch_phonegap";
+			};
+			name = Release;
+		};
+		3D3265181CD42C7700B222C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = getpunch_phonegapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "getpunch.getpunch-phonegapUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = getpunch_phonegap;
+			};
+			name = Debug;
+		};
+		3D3265191CD42C7700B222C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = getpunch_phonegapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "getpunch.getpunch-phonegapUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = getpunch_phonegap;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D3264E21CD42C7700B222C8 /* Build configuration list for PBXProject "getpunch_phonegap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D32650F1CD42C7700B222C8 /* Debug */,
+				3D3265101CD42C7700B222C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D3265111CD42C7700B222C8 /* Build configuration list for PBXNativeTarget "getpunch_phonegap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D3265121CD42C7700B222C8 /* Debug */,
+				3D3265131CD42C7700B222C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3D3265141CD42C7700B222C8 /* Build configuration list for PBXNativeTarget "getpunch_phonegapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D3265151CD42C7700B222C8 /* Debug */,
+				3D3265161CD42C7700B222C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3D3265171CD42C7700B222C8 /* Build configuration list for PBXNativeTarget "getpunch_phonegapUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D3265181CD42C7700B222C8 /* Debug */,
+				3D3265191CD42C7700B222C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D3264DF1CD42C7700B222C8 /* Project object */;
+}
